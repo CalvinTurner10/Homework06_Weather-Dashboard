@@ -8,7 +8,108 @@
     ">
     <title>Weather Dashboard</title>
 </head>
-<body>
+<body class ="container -p">
+    <div class="row">
+        <header class="col">  
+    <h1 class="display-3">Weather Dashboard</h1>  
+</header>
+</div>
+<div class ="row">
+    <aside id= "searchBox" class= col-3>
+        <input type="text" id="the-input" placeholder="Atlanta">
+        <button type ="submit" class="primary-btn" id= "search-button"> Search</button>
+        <div style ="justify-self: left; padding-top: 20px; flex-wrap: wrap; flex-direction: column" id="user-search-buttons"></div>
+    </aside>
+    <div class= "col-9 md-6">
+        <div id= "today" class= "container px-5px py-5px">
+            <div class="jumbotron">
+                <h1 id="name"></h1>
+                <div id="date"></div>
+                <img id="conditions" />
+                <div id="temp"></div>
+                <div id="humidity"></div>
+                <div id="windspeed"></div>
+                <div id="uvIndex"></div>
+        </div>
+    </div>
+    <div class="container">
+        <section class= "row">
+            <div class="col-12 col-md-9">
+                <h2>5-Day Forecast</h2>
+            </div>
+        </section>
+        <section class ="row">
+            <div class= "col mb-3">
+                <div class= "card">
+                    <h3 class="card-header">
+                        Day 1
+                    </h3>
+                    <div class ="card-body">
+                        <img class="card-text"/>
+                        <p class ="card-text"> Temp: </p>
+                        <p class ="card-text"> Wind: </p>
+                        <p class ="card-text"> Humidity: </p>
+                    </div>
+                </div>
+            </div>
+            <div class= "col mb-3">
+                <div class= "card">
+                    <h3 class="card-header">
+                        Day 2
+                    </h3>
+                    <div class ="card-body">
+                        <img class="card-text"/>
+                        <p class ="card-text"> Temp: </p>
+                        <p class ="card-text"> Wind: </p>
+                        <p class ="card-text"> Humidity: </p>
+                    </div>
+                </div>
+            </div>
+            <div class= "col mb-3">
+                <div class= "card">
+                    <h3 class="card-header">
+                        Day 3
+                    </h3>
+                    <div class ="card-body">
+                        <img class="card-text"/>
+                        <p class ="card-text"> Temp: </p>
+                        <p class ="card-text"> Wind: </p>
+                        <p class ="card-text"> Humidity: </p>
+                    </div>
+                </div>
+            </div>
+            <div class= "col mb-3">
+                <div class= "card">
+                    <h3 class="card-header">
+                        Day 4
+                    </h3>
+                    <div class ="card-body">
+                        <img class="card-text"/>
+                        <p class ="card-text"> Temp: </p>
+                        <p class ="card-text"> Wind: </p>
+                        <p class ="card-text"> Humidity: </p>
+                    </div>
+                </div>
+            </div>
+            <div class= "col mb-3">
+                <div class= "card">
+                    <h3 class="card-header">
+                        Day 5
+                    </h3>
+                    <div class ="card-body">
+                        <img class="card-text"/>
+                        <p class ="card-text"> Temp: </p>
+                        <p class ="card-text"> Wind: </p>
+                        <p class ="card-text"> Humidity: </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+</div>
+<script src=""></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     
 </body>
 </html>
