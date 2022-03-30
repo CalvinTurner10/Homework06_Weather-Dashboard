@@ -42,7 +42,7 @@
   
 
   a {
-    background-color: transparent;
+    background-color: burlywood;
   }
   
   abbr[title] {
@@ -830,7 +830,7 @@
   }
   
   .bg-white {
-    background-color: #ffffff !important;
+    background-color:burlywood !important;
   }
   
   .bg-black {
@@ -1676,7 +1676,7 @@
   
   .weather-header {
     background: #20084a;
-    background: -webkit-linear-gradient(right, #20084a, #3463bc);
+    background: -webkit-linear-gradient(right, #20084a,purple);
     background: -moz-linear-gradient(right, #20084a, #3463bc);
     background: linear-gradient(to left, #20084a, #3463bc);
   }
